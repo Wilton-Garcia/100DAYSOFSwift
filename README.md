@@ -39,13 +39,13 @@ The Course
 Days 1-12: Introduction to Swift
 The first 12 days provide a gentle warm up for your Swift learning. You’ll watch about a selection of one-minute videos every day, and complete short quizzes about each of those videos.
 
-Day 1 – variables, simple data types, and string interpolation 
+:white_check_mark: Day 1 – variables, simple data types, and string interpolation 
 
-Day 2 – arrays, dictionaries, sets, and enums
+:white_check_mark: Day 2 – arrays, dictionaries, sets, and enums
 
-Day 3 – operators and conditions
+:white_check_mark: Day 3 – operators and conditions
 
-Day 4 – loops, loops, and more loops
+:white_check_mark: Day 4 – loops, loops, and more loops
 
 Day 5 – functions, parameters, and errors
 
