@@ -47,7 +47,7 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 :white_check_mark: Day 4 – loops, loops, and more loops
 
-Day 5 – functions, parameters, and errors
+:white_check_mark: Day 5 – functions, parameters, and errors
 
 Day 6 – closures part one
 
