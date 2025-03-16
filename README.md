@@ -36,9 +36,9 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 :white_check_mark: Day 7 – closures part two
 
-Day 8 – structs, properties, and methods
+:white_check_mark: Day 8 – structs, properties, and methods
 
-Day 9 – access control, static properties, and laziness
+:white_check_mark: Day 9 – access control, static properties, and laziness
 
 Day 10 – classes and inheritance
 
