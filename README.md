@@ -40,7 +40,7 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 :white_check_mark: Day 9 – access control, static properties, and laziness
 
-Day 10 – classes and inheritance
+:white_check_mark: Day 10 – classes and inheritance
 
 Day 11 – protocols, extensions, and protocol extensions
 
