@@ -42,6 +42,6 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 :white_check_mark: Day 10 – classes and inheritance
 
-Day 11 – protocols, extensions, and protocol extensions
+:white_check_mark: Day 11 – protocols, extensions, and protocol extensions
 
 Day 12 – optionals, unwrapping, and typecasting
