@@ -48,7 +48,7 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 :white_check_mark: Day 13 – Swift review, day one
 
-Day 14 – Swift review, day two
+:white_check_mark: Day 14 – Swift review, day two
 
 Day 15 – Swift review, day three
 
