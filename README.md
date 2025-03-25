@@ -54,7 +54,7 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 :white_check_mark: Day 16 – Project 1, part one
 
-Day 17 – Project 1, part two
+:white_check_mark: Day 17 – Project 1, part two
 
 Day 18 – Project 1, part three
 
