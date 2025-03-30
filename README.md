@@ -64,7 +64,7 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 :white_check_mark: Day 21 – Project 2, part three
 
-Day 22 – Project 3
+:white_check_mark: Day 22 – Project 3
 
 Day 23 – Milestone: Projects 1-3
 
