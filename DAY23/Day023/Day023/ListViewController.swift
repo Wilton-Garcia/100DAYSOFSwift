@@ -33,16 +33,14 @@ class ListViewController: UITableViewController {
         flags.count
     }
     
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 130
+    }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        
-        tableView.register(CustomCellViewController.nib(), forCellReuseIdentifier: CustomCellViewController.identifier)
-
-        
         guard let customCell = tableView.dequeueReusableCell(withIdentifier: "Countries") as? CustomCellViewController
         else { return UITableViewCell() }
         
-
             customCell.countriName.text = flags[indexPath.row]
                 .replacingOccurrences(of: "cr_" , with: "")
                 .replacingOccurrences(of: ".png" , with: "")
@@ -50,13 +48,8 @@ class ListViewController: UITableViewController {
             
             customCell.flagImage.image = UIImage(named: flags[indexPath.row])
             
-            
             return customCell
             
-            
-        
-        
-        
     }
 }
     

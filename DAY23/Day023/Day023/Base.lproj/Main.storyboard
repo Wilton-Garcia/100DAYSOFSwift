@@ -16,21 +16,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Countries" rowHeight="132" id="DQH-wG-1pT" customClass="CustomCellViewController" customModule="Day023" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="375" height="132"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Countries" rowHeight="125" id="DQH-wG-1pT" customClass="CustomCellViewController" customModule="Day023" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="375" height="125"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DQH-wG-1pT" id="tnV-Dv-VTK">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="132"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="125"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ef7-ji-DHd">
-                                            <rect key="frame" x="35" y="16" width="100" height="100"/>
+                                            <rect key="frame" x="35" y="16" width="100" height="93"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="100" id="YGf-tx-5u4"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfl-JY-xKJ">
-                                            <rect key="frame" x="242" y="55.5" width="42" height="21"/>
+                                            <rect key="frame" x="242" y="55.5" width="42" height="14"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -48,7 +48,6 @@
                                 <connections>
                                     <outlet property="countriName" destination="lfl-JY-xKJ" id="XjP-ry-dIe"/>
                                     <outlet property="flagImage" destination="Ef7-ji-DHd" id="K4R-9l-g9o"/>
-                                    <outlet property="image" destination="Ef7-ji-DHd" id="Cvf-8U-y2Q"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
