@@ -2,7 +2,8 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="znV-u1-Uv7">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -61,10 +62,62 @@
             </objects>
             <point key="canvasLocation" x="-898.39999999999998" y="-138.0809595202399"/>
         </scene>
+        <!--Flag View Controller-->
+        <scene sceneID="lCt-LS-vhb">
+            <objects>
+                <viewController id="043-x1-0FH" customClass="FlagViewController" customModule="Day023" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uro-lX-yQG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fCC-Za-70x">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTe-f6-EUl">
+                                <rect key="frame" x="146" y="447" width="71" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9xD-G0-Hgl">
+                                <rect key="frame" x="87" y="526" width="200" height="50"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pN4-vc-FTG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9xD-G0-Hgl" firstAttribute="top" secondItem="lTe-f6-EUl" secondAttribute="bottom" constant="50" id="03o-0c-1WO"/>
+                            <constraint firstItem="lTe-f6-EUl" firstAttribute="centerY" secondItem="pN4-vc-FTG" secondAttribute="centerY" id="24K-K2-b7F"/>
+                            <constraint firstItem="lTe-f6-EUl" firstAttribute="top" secondItem="fCC-Za-70x" secondAttribute="bottom" constant="72" id="7bo-7r-dv3"/>
+                            <constraint firstItem="9xD-G0-Hgl" firstAttribute="centerX" secondItem="pN4-vc-FTG" secondAttribute="centerX" id="C9D-aB-TJb"/>
+                            <constraint firstItem="fCC-Za-70x" firstAttribute="centerX" secondItem="pN4-vc-FTG" secondAttribute="centerX" id="Jyy-04-Zzy"/>
+                            <constraint firstItem="fCC-Za-70x" firstAttribute="leading" secondItem="pN4-vc-FTG" secondAttribute="leading" constant="67" id="XeG-Sc-Yub"/>
+                            <constraint firstItem="pN4-vc-FTG" firstAttribute="trailing" secondItem="fCC-Za-70x" secondAttribute="trailing" constant="67" id="YKL-xV-7Vk"/>
+                            <constraint firstItem="pN4-vc-FTG" firstAttribute="bottom" secondItem="9xD-G0-Hgl" secondAttribute="bottom" constant="140.5" id="eHU-RS-6uv"/>
+                            <constraint firstItem="fCC-Za-70x" firstAttribute="top" secondItem="pN4-vc-FTG" secondAttribute="top" constant="25" id="eTE-4o-Tdo"/>
+                            <constraint firstItem="pN4-vc-FTG" firstAttribute="bottom" secondItem="fCC-Za-70x" secondAttribute="bottom" constant="494" id="mFl-1j-Cak"/>
+                            <constraint firstItem="lTe-f6-EUl" firstAttribute="centerX" secondItem="pN4-vc-FTG" secondAttribute="centerX" id="tF3-bp-bfK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="flagName" destination="lTe-f6-EUl" id="BAm-8f-aaq"/>
+                        <outlet property="imageFlag" destination="fCC-Za-70x" id="Azc-IY-JUQ"/>
+                        <outlet property="shareFlag" destination="9xD-G0-Hgl" id="Ui9-Ze-MAj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Hk-Yb-w4J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="39.200000000000003" y="-132.68365817091455"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

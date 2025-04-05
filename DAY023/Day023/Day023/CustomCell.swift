@@ -14,4 +14,8 @@ class CustomCellViewController: UITableViewCell {
     @IBOutlet var flagImage: UIImageView!
     
     static let identifier = "Countries"
+    
+    func open() {
+    
+    }
 }

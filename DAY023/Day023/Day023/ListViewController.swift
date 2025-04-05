@@ -48,6 +48,7 @@ class ListViewController: UITableViewController {
             
             customCell.flagImage.image = UIImage(named: flags[indexPath.row])
             
+        
             return customCell
             
     }
